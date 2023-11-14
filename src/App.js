@@ -35,7 +35,7 @@ const App = () => {
         }
       );
       emailjs
-      .send('default_service', 'template_wwpuvrj', contact, 'ExPSrGwO6SCA_y1bA')
+      .send('default_service', 'template_g1wmo3f', contact, 'ExPSrGwO6SCA_y1bA')
       .then(
         (response) => {
           console.log('SUCCESS!', response.status, response.text);
